@@ -1,0 +1,1 @@
+Bu klasor icerisinde islemden gecmis network, analiz ara adimlarinda kullanilan dosyalar icin kullanacagiz.
