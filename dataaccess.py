@@ -6,13 +6,21 @@ from forum.message import Message
 from forum.member import Member
 
 
-def get_forum_messages(fname='data/raw_data/otkn_messages.json'):
+def get_forum_messages(fname='data/raw_data/otkn_messages.json', sDate=None, eDate=None):
     messages = json.loads(open(fname,'r').read().replace('\\','\\\\'), strict=False)
     for m in messages:
-        yield Message(m)
+        mObj = Message(m)
 
-def get_message_dict():
-    messages = get_forum_messages()
+        if sDate <> None and sDate > mObj.timestamp:
+            continue
+
+        if eDate <> None and eDate < mObj.timestamp:
+            continue
+
+        yield mObj
+
+def get_message_dict(sDate=None, eDate=None):
+    messages = get_forum_messages(sDate=sDate, eDate=eDate)
     return {m.id:m for m in messages if m.id <> None}
 
 

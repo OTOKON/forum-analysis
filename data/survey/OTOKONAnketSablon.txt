@@ -1,0 +1,33 @@
+﻿Temel bilgiler
+        Uye adi, soyadi (metin)
+        Cinsiyet (coktan secmeli)
+        Dogum yeri (metin)
+        Dogum tarihi (metin veya takvim)
+
+
+Egitim bilgileri
+        Bolum (coktan secmeli ve “diger” sekilinde metin)
+        CAP ve yandal bilgisi
+        Giris yili (dropdown 2000-2015 arasi)
+        Mezuniyet yili (dropdown 2000-2015 arasi)
+        Mezuniyet ortalamasi (metin x.xx sekilinde)
+        Yuksek ogretime devam ediyor musunuz? (Evet ise okul adi vs.)
+        
+        
+Is bilgileri
+        Suan calismakta oldugu is (metin)
+        Çalıştığı Pozisyon (dropdown coktan secmeli)
+        Ilk is tecrubesi (baslangic yili dropdown 2000-2015 arasi, aciklama metin)
+
+
+OTOKON bilgileri
+        Kulube katildigi yil (dropdown 2000-2015 arasi)
+        Kulupte calismakta oldugu gorevler (selection box seklinde OTOKON ve ITURO gruplari)
+        Kulupte aldiginiz rollerin kariyerinize etkileri (5-likert scale)
+        Kulup etkinliklerine katilmaya devam ediyormusunuz? (Evet / Hayir, Aciklama metni)
+
+
+Iletisim bilgileri
+        LinkedIn profil linki (metin)
+        Twitter hesabi (metin @xxxx)
+        Aktif e-mail adresi (metin)
